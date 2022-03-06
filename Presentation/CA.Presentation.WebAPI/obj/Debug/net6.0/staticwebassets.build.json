@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5+KEhK/ZbCudud3YN4uYjeO+ZcAvuqnFS5kmDskNJrc=",
+  "Source": "CA.Presentation.WebAPI",
+  "BasePath": "_content/CA.Presentation.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

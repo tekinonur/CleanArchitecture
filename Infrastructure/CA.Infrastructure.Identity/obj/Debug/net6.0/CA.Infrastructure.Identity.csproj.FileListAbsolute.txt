@@ -1,0 +1,12 @@
+/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Identity/bin/Debug/net6.0/CA.Infrastructure.Identity.deps.json
+/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Identity/bin/Debug/net6.0/CA.Infrastructure.Identity.dll
+/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Identity/bin/Debug/net6.0/ref/CA.Infrastructure.Identity.dll
+/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Identity/bin/Debug/net6.0/CA.Infrastructure.Identity.pdb
+/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Identity/obj/Debug/net6.0/CA.Infrastructure.Identity.csproj.AssemblyReference.cache
+/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Identity/obj/Debug/net6.0/CA.Infrastructure.Identity.GeneratedMSBuildEditorConfig.editorconfig
+/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Identity/obj/Debug/net6.0/CA.Infrastructure.Identity.AssemblyInfoInputs.cache
+/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Identity/obj/Debug/net6.0/CA.Infrastructure.Identity.AssemblyInfo.cs
+/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Identity/obj/Debug/net6.0/CA.Infrastructure.Identity.csproj.CoreCompileInputs.cache
+/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Identity/obj/Debug/net6.0/CA.Infrastructure.Identity.dll
+/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Identity/obj/Debug/net6.0/ref/CA.Infrastructure.Identity.dll
+/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Identity/obj/Debug/net6.0/CA.Infrastructure.Identity.pdb
