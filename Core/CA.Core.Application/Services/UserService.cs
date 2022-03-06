@@ -1,11 +1,7 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Threading.Tasks;
-using CA.Core.Application.Repositories.Base;
 using CA.Core.Application.Services.IServices;
 using CA.Core.Domain.Entities;
+using CA.Core.Domain.IRepositories.Base;
 
 namespace CA.Core.Application.Services
 {

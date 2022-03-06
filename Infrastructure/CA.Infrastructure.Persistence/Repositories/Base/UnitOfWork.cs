@@ -2,8 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using CA.Core.Application.Repositories;
-using CA.Core.Application.Repositories.Base;
+using CA.Core.Domain.IRepositories;
+using CA.Core.Domain.IRepositories.Base;
 
 namespace CA.Infrastructure.Persistence.Repositories.Base
 {

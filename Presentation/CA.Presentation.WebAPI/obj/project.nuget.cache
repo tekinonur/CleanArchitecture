@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "qn3Ey2n5+T0rxigZfzFDSWHEO2tlBz2JG7ytSl4UYDxtQ0QcLvKuLhcM1SwQAVf6rytrRPSZGBUXcZ9bQADjqw==",
+  "dgSpecHash": "UYHuBLWQ4mB97rJz75qZUPW+s93UuBflMVhmKG+kFqH+ZOytCC1NkPE0z6Ua/I5uhTIo/NbEVFwhOYPoU/TzVw==",
   "success": true,
   "projectFilePath": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Presentation/CA.Presentation.WebAPI/CA.Presentation.WebAPI.csproj",
   "expectedPackageFiles": [
+    "/Users/onurtekin/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/onurtekin/.nuget/packages/microsoft.data.sqlite.core/6.0.2/microsoft.data.sqlite.core.6.0.2.nupkg.sha512",
     "/Users/onurtekin/.nuget/packages/microsoft.entityframeworkcore/6.0.2/microsoft.entityframeworkcore.6.0.2.nupkg.sha512",
     "/Users/onurtekin/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.2/microsoft.entityframeworkcore.abstractions.6.0.2.nupkg.sha512",
     "/Users/onurtekin/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.2/microsoft.entityframeworkcore.analyzers.6.0.2.nupkg.sha512",
+    "/Users/onurtekin/.nuget/packages/microsoft.entityframeworkcore.design/6.0.2/microsoft.entityframeworkcore.design.6.0.2.nupkg.sha512",
     "/Users/onurtekin/.nuget/packages/microsoft.entityframeworkcore.relational/6.0.2/microsoft.entityframeworkcore.relational.6.0.2.nupkg.sha512",
     "/Users/onurtekin/.nuget/packages/microsoft.entityframeworkcore.sqlite/6.0.2/microsoft.entityframeworkcore.sqlite.6.0.2.nupkg.sha512",
     "/Users/onurtekin/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/6.0.2/microsoft.entityframeworkcore.sqlite.core.6.0.2.nupkg.sha512",

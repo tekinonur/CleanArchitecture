@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u3NylKtEcFqtpelK6EhdqXnPjENxFGAt1K2w3rr3BDBEiQmgI49jEyCBrVKZSzEKB/bjer1NCRiUF8M7upkQPg==",
+  "dgSpecHash": "sgBKW8sGbPhvi8o629r1ey50KmLvLiGw5+36vq3RDJ8V1TUW/hskTQ5dumFajN+wvutfV1AYzOu/oZS8ETEX9g==",
   "success": true,
   "projectFilePath": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Core/CA.Core.Application/CA.Core.Application.csproj",
-  "expectedPackageFiles": [
-    "/Users/onurtekin/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

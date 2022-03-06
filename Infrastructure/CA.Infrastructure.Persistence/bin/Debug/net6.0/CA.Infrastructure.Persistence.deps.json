@@ -10,6 +10,7 @@
         "dependencies": {
           "CA.Core.Application": "1.0.0",
           "CA.Core.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore.Design": "6.0.2",
           "Microsoft.EntityFrameworkCore.Sqlite": "6.0.2",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.2"
         },
@@ -368,8 +369,7 @@
       },
       "CA.Core.Application/1.0.0": {
         "dependencies": {
-          "CA.Core.Domain": "1.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+          "CA.Core.Domain": "1.0.0"
         },
         "runtime": {
           "CA.Core.Application.dll": {}

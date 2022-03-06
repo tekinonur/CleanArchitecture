@@ -1,10 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Threading.Tasks;
 
-namespace CA.Core.Application.Repositories.Base
+namespace CA.Core.Domain.IRepositories.Base
 {
     public interface IRepository<T> where T : class
     {
@@ -18,6 +14,5 @@ namespace CA.Core.Application.Repositories.Base
         Task<IEnumerable<T>> GetMany(Expression<Func<T, bool>> where);
         Task<int> Count();
         Task<int> Count(Expression<Func<T, bool>> where);
-
     }
 }

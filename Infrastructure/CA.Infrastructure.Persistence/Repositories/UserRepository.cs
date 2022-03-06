@@ -1,9 +1,5 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using CA.Core.Application.Repositories;
 using CA.Core.Domain.Entities;
+using CA.Core.Domain.IRepositories;
 using CA.Infrastructure.Persistence.Repositories.Base;
 
 namespace CA.Infrastructure.Persistence.Repositories

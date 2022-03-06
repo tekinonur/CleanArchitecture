@@ -10,12 +10,22 @@
         "dependencies": {
           "CA.Core.Application": "1.0.0",
           "CA.Infrastructure.Identity": "1.0.0",
+          "CA.Infrastructure.IoC": "1.0.0",
           "CA.Infrastructure.Persistence": "1.0.0",
           "CA.Infrastructure.Shared": "1.0.0",
+          "Microsoft.EntityFrameworkCore.Design": "6.0.2",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
           "CA.Presentation.WebAPI.dll": {}
+        }
+      },
+      "Humanizer.Core/2.8.26": {
+        "runtime": {
+          "lib/netstandard2.0/Humanizer.dll": {
+            "assemblyVersion": "2.8.0.0",
+            "fileVersion": "2.8.26.1919"
+          }
         }
       },
       "Microsoft.Data.Sqlite.Core/6.0.2": {
@@ -55,6 +65,18 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/6.0.2": {},
+      "Microsoft.EntityFrameworkCore.Design/6.0.2": {
+        "dependencies": {
+          "Humanizer.Core": "2.8.26",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.2"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll": {
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.222.6404"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/6.0.2": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.2",
@@ -341,8 +363,7 @@
       },
       "CA.Core.Application/1.0.0": {
         "dependencies": {
-          "CA.Core.Domain": "1.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+          "CA.Core.Domain": "1.0.0"
         },
         "runtime": {
           "CA.Core.Application.dll": {}
@@ -356,6 +377,18 @@
       "CA.Infrastructure.Identity/1.0.0": {
         "runtime": {
           "CA.Infrastructure.Identity.dll": {}
+        }
+      },
+      "CA.Infrastructure.IoC/1.0.0": {
+        "dependencies": {
+          "CA.Core.Application": "1.0.0",
+          "CA.Core.Domain": "1.0.0",
+          "CA.Infrastructure.Persistence": "1.0.0",
+          "Microsoft.EntityFrameworkCore.Sqlite": "6.0.2",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0"
+        },
+        "runtime": {
+          "CA.Infrastructure.IoC.dll": {}
         }
       },
       "CA.Infrastructure.Persistence/1.0.0": {
@@ -380,6 +413,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Humanizer.Core/2.8.26": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
+      "path": "humanizer.core/2.8.26",
+      "hashPath": "humanizer.core.2.8.26.nupkg.sha512"
     },
     "Microsoft.Data.Sqlite.Core/6.0.2": {
       "type": "package",
@@ -408,6 +448,13 @@
       "sha512": "sha512-pHUMjXPeWqyZS2OfkQsDC1Qdk30JVcPNDUxEVhOTDAJvyUN4EuBFYbnniQ9RLHbWAw8IkEwVAAo6v/ICmT4/dw==",
       "path": "microsoft.entityframeworkcore.analyzers/6.0.2",
       "hashPath": "microsoft.entityframeworkcore.analyzers.6.0.2.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Design/6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U5nqbIKJ8LQF/T1BzMjL35mwhTPsEUsjLhX+GjPQcrKaavv6oczCdznhr7VbEmCmGSjQjSarNqXkSCneUX2mXA==",
+      "path": "microsoft.entityframeworkcore.design/6.0.2",
+      "hashPath": "microsoft.entityframeworkcore.design.6.0.2.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.Relational/6.0.2": {
       "type": "package",
@@ -630,6 +677,11 @@
       "sha512": ""
     },
     "CA.Infrastructure.Identity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CA.Infrastructure.IoC/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
