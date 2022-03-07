@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using CA.Core.Application.Services.IServices;
+using CA.Core.Application.DTOs;
 
 namespace CA.Presentation.WebAPI.Controllers
 {
@@ -19,6 +20,10 @@ namespace CA.Presentation.WebAPI.Controllers
             _userService = userService;
         }
 
+        /// <summary>
+        /// Tüm kullanıcıları getirir
+        /// </summary>
+        /// <returns></returns>
         [HttpGet("GetAllUsers")]
         public async Task<IActionResult> GetAllUsers()
         {
@@ -30,6 +35,61 @@ namespace CA.Presentation.WebAPI.Controllers
         public async Task<IActionResult> GetUserByID(Guid ID)
         {
             return Ok(await _userService.GetById(ID));
+        }
+
+         /// <summary>
+        /// Yeni Item ekler. ID yi otomatik verir
+        /// </summary>
+        /// <param name="userDTO"></param>
+        /// <returns></returns>
+        [HttpPut("CreateUser")]
+        public async Task<IActionResult> CreateUser(UserDTO userDTO)
+        {
+            if(ModelState.IsValid)
+            {
+                userDTO.ID = Guid.NewGuid();    
+
+                await _userService.Add(userDTO);
+
+                return CreatedAtAction("GetItemByID",new {userDTO.ID}, userDTO);
+            }
+
+            return new JsonResult("Something went wrong") { StatusCode = 500 };
+        }
+
+        /// <summary>
+        /// Item günceller
+        /// </summary>
+        /// <param name="ID"></param>
+        /// <param name="userDTO"></param>
+        /// <returns></returns>
+        [HttpPost("{ID}")]
+        public async Task<IActionResult> UpdateItem(Guid ID,UserDTO userDTO)
+        {
+            if(ID != userDTO.ID)
+                return BadRequest();
+
+            await _userService.Update(userDTO);
+            
+            return NoContent();
+        }
+
+        /// <summary>
+        /// Item siler
+        /// </summary>
+        /// <param name="ID"></param>
+        /// <returns></returns>
+        [HttpDelete("{ID}")]
+        public async Task<IActionResult> DeleteItem(Guid ID)
+        {
+            var item = await _userService.GetById(ID);
+            
+            if(item == null)
+                return BadRequest();
+
+            await _userService.Delete(ID);
+
+            return Ok(item);        
         }
     }
 }

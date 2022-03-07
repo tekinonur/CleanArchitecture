@@ -24,6 +24,7 @@ namespace CA.Core.Application.Services
         {
             var entity = _mapper.Map<Item>(entityDTO);
             await _unitOfWork.Items.Add(entity);
+            await _unitOfWork.CompleteAsync();
             return true;
         }
 
@@ -35,6 +36,7 @@ namespace CA.Core.Application.Services
         public async Task<bool> Delete<Guid>(Guid ID)
         {
             await _unitOfWork.Items.Delete(ID);
+            await _unitOfWork.CompleteAsync();
             return true;
         }
 
@@ -61,6 +63,7 @@ namespace CA.Core.Application.Services
         {
             var entity = _mapper.Map<Item>(entityDTO);
             await _unitOfWork.Items.Update(entity);
+            await _unitOfWork.CompleteAsync();
             return true;
         }
 

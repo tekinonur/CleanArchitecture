@@ -24,6 +24,7 @@ namespace CA.Core.Application.Services
         {
             var entity = _mapper.Map<User>(entityDTO);
             await _unitOfWork.Users.Add(entity);
+            await _unitOfWork.CompleteAsync();
             return true;
         }
 
@@ -35,6 +36,7 @@ namespace CA.Core.Application.Services
         public async Task<bool> Delete<Guid>(Guid ID)
         {
             await _unitOfWork.Users.Delete(ID);
+            await _unitOfWork.CompleteAsync();
             return true;
         }
 
@@ -42,6 +44,7 @@ namespace CA.Core.Application.Services
         {
             var entity = _mapper.Map<User>(entityDTO);
             await _unitOfWork.Users.Delete(entity);
+            await _unitOfWork.CompleteAsync();
             return true;
         }
 
@@ -66,6 +69,7 @@ namespace CA.Core.Application.Services
         {
             var entity = _mapper.Map<User>(entityDTO);
             await _unitOfWork.Users.Update(entity);
+            await _unitOfWork.CompleteAsync();
             return true;
         }
 

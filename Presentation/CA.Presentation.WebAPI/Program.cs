@@ -5,6 +5,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using AutoMapper;
 using CA.Core.Application.Mappings;
+using NLog;
+using NLog.Web;
+using Microsoft.OpenApi.Models;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,23 +17,29 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(options =>
+{
+    options.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Version = "v1",
+        Title = "Clean Architecture API"
+    });
+    options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, $"{Assembly.GetExecutingAssembly().GetName().Name}.xml"));
+});
 
 //Infrastructure.IoC.DependencyInjection
 builder.Services.RegisterServices(builder.Configuration);
 
 // Auto Mapper Configurations
-// var mapperConfig = new MapperConfiguration(mc =>
-// {
-//     mc.AddProfile(new AutoMapperProfile());
-// });
-// IMapper mapper = mapperConfig.CreateMapper();
-// builder.Services.AddSingleton(mapper);
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
+// NLog: Setup NLog for Dependency injection
+builder.Logging.ClearProviders();
+builder.Logging.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Trace);
+builder.Host.UseNLog();
+
 //Seed data
-var unitOfWork = builder.Services.BuildServiceProvider().GetRequiredService<IUnitOfWork>();
-await Seed.SeedData(unitOfWork);
+await Seed.SeedData(builder.Services.BuildServiceProvider().GetRequiredService<IUnitOfWork>());
 
 var app = builder.Build();
 
