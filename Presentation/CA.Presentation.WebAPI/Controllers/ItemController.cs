@@ -53,7 +53,6 @@ namespace CA.Presentation.WebAPI.Controllers
             if(ModelState.IsValid)
             {
                 itemDTO.ID = Guid.NewGuid();    
-
                 await _itemService.Add(itemDTO);
 
                 return CreatedAtAction("GetItemByID",new {itemDTO.ID}, itemDTO);

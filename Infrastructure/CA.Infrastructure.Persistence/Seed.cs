@@ -14,26 +14,22 @@ namespace CA.Infrastructure.Persistence
         {
             if (await unitOfWork.Users.Any() == false)
             {
-                var id = Guid.NewGuid();
-
                 var users = new List<User>(){
                     new User(){
-                        ID = id,
+                        ID = Guid.NewGuid(),
                         FirstName = "Admin",
                         LastName = "Administrator",
                         Email = "admin@gmail.com",
-                        CreatedBy = id,
+                        Password = "@dmin",
                         CreatedOn = DateTime.Now,
-                        UpdatedBy = id
                     },
                     new User(){
                         ID = Guid.NewGuid(),
                         FirstName = "User",
                         LastName = "BasicUser",
                         Email = "user@gmail.com",
-                        CreatedBy = id,
-                        CreatedOn = DateTime.Now,
-                        UpdatedBy = id
+                        Password = "@ser",
+                        CreatedOn = DateTime.Now
                     }
                 };
 
