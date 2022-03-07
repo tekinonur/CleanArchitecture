@@ -1,35 +1,35 @@
-using System.Linq.Expressions;
 using CA.Core.Application.Services.IServices;
 using CA.Core.Domain.Entities;
 using CA.Core.Domain.IRepositories.Base;
+using AutoMapper;
+using CA.Core.Application.DTOs;
 
 namespace CA.Core.Application.Services
 {
     public class UserService : IUserService
     {
         private readonly IUnitOfWork _unitOfWork;
+        private readonly IMapper _mapper;
 
         public UserService(
-            IUnitOfWork unitOfWork
+            IUnitOfWork unitOfWork,
+            IMapper mapper
         )
         {
             _unitOfWork = unitOfWork;
+            _mapper = mapper;
         }
 
-        public async Task<bool> Add(User entity)
+        public async Task<bool> Add(UserDTO entityDTO)
         {
+            var entity = _mapper.Map<User>(entityDTO);
             await _unitOfWork.Users.Add(entity);
             return true;
         }
 
         public async Task<int> Count()
         {
-          return await _unitOfWork.Users.Count();
-        }
-
-        public async Task<int> Count(Expression<Func<User, bool>> where)
-        {
-            return await _unitOfWork.Users.Count(where);
+            return await _unitOfWork.Users.Count();
         }
 
         public async Task<bool> Delete<Guid>(Guid ID)
@@ -38,26 +38,23 @@ namespace CA.Core.Application.Services
             return true;
         }
 
-        public async Task<bool> Delete(User entity)
+        public async Task<bool> Delete(UserDTO entityDTO)
         {
+            var entity = _mapper.Map<User>(entityDTO);
             await _unitOfWork.Users.Delete(entity);
             return true;
         }
 
-        public async Task<bool> Delete(Expression<Func<User, bool>> where)
+        public async Task<IEnumerable<UserDTO>> GetAll()
         {
-            await _unitOfWork.Users.Delete(where);
-            return true;
+            var users = await _unitOfWork.Users.GetAll();
+            return _mapper.Map<List<UserDTO>>(users);
         }
 
-        public async Task<IEnumerable<User>> GetAll()
+        public async Task<UserDTO> GetById(Guid ID)
         {
-          return await _unitOfWork.Users.GetAll();
-        }
-
-        public async Task<User> GetById(Guid ID)
-        {
-            return await _unitOfWork.Users.GetById(ID);
+            var user = await _unitOfWork.Users.GetById(ID);
+            return _mapper.Map<UserDTO>(user);
         }
 
         public async Task<string> GetFirstNameAndLastName(Guid ID)
@@ -65,13 +62,9 @@ namespace CA.Core.Application.Services
             return await _unitOfWork.Users.GetFirstNameAndLastName(ID);
         }
 
-        public async Task<IEnumerable<User>> GetMany(Expression<Func<User, bool>> where)
+        public async Task<bool> Update(UserDTO entityDTO)
         {
-            return await _unitOfWork.Users.GetMany(where);
-        }
-
-        public async Task<bool> Update(User entity)
-        {
+            var entity = _mapper.Map<User>(entityDTO);
             await _unitOfWork.Users.Update(entity);
             return true;
         }

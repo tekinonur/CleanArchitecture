@@ -1,4 +1,5 @@
-using System.Linq.Expressions;
+using AutoMapper;
+using CA.Core.Application.DTOs;
 using CA.Core.Application.Services.IServices;
 using CA.Core.Domain.Entities;
 using CA.Core.Domain.IRepositories.Base;
@@ -8,16 +9,20 @@ namespace CA.Core.Application.Services
     public class ItemService : IItemService
     {
         private readonly IUnitOfWork _unitOfWork;
+        private readonly IMapper _mapper;
 
         public ItemService(
-            IUnitOfWork unitOfWork
+            IUnitOfWork unitOfWork,
+            IMapper mapper
         )
         {
             _unitOfWork = unitOfWork;
+            _mapper = mapper;
         }
 
-        public async Task<bool> Add(Item entity)
+        public async Task<bool> Add(ItemDTO entityDTO)
         {
+            var entity = _mapper.Map<Item>(entityDTO);
             await _unitOfWork.Items.Add(entity);
             return true;
         }
@@ -27,46 +32,34 @@ namespace CA.Core.Application.Services
             return await _unitOfWork.Items.Count();
         }
 
-        public async Task<int> Count(Expression<Func<Item, bool>> where)
-        {
-            return await _unitOfWork.Items.Count(where);
-        }
-
         public async Task<bool> Delete<Guid>(Guid ID)
         {
             await _unitOfWork.Items.Delete(ID);
             return true;
         }
 
-        public async Task<bool> Delete(Item entity)
+        public async Task<bool> Delete(ItemDTO entityDTO)
         {
+            var entity = _mapper.Map<Item>(entityDTO);
             await _unitOfWork.Items.Delete(entity);
             return true;
         }
 
-        public async Task<bool> Delete(Expression<Func<Item, bool>> where)
+        public async Task<IEnumerable<ItemDTO>> GetAll()
         {
-            await _unitOfWork.Items.Delete(where);
-            return true;
+            var items = await _unitOfWork.Items.GetAll();
+            return _mapper.Map<List<ItemDTO>>(items);
         }
 
-        public async Task<IEnumerable<Item>> GetAll()
+        public async Task<ItemDTO> GetById(Guid ID)
         {
-            return await _unitOfWork.Items.GetAll();
+            var item = await _unitOfWork.Items.GetById(ID);
+            return _mapper.Map<ItemDTO>(item);
         }
 
-        public async Task<Item> GetById(Guid ID)
+        public async Task<bool> Update(ItemDTO entityDTO)
         {
-            return await _unitOfWork.Items.GetById(ID);
-        }
-
-        public async Task<IEnumerable<Item>> GetMany(Expression<Func<Item, bool>> where)
-        {
-            return await _unitOfWork.Items.GetMany(where);
-        }
-
-        public async Task<bool> Update(Item entity)
-        {
+            var entity = _mapper.Map<Item>(entityDTO);
             await _unitOfWork.Items.Update(entity);
             return true;
         }

@@ -22,6 +22,7 @@ namespace CA.Infrastructure.IoC
             #region Service IoC
             //Core.Application
             services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IItemService, ItemService>();
             #endregion
 
             #region Repository IoC

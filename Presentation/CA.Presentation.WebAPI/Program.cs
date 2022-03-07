@@ -3,6 +3,8 @@ using CA.Infrastructure.IoC;
 using CA.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using AutoMapper;
+using CA.Core.Application.Mappings;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +17,15 @@ builder.Services.AddSwaggerGen();
 
 //Infrastructure.IoC.DependencyInjection
 builder.Services.RegisterServices(builder.Configuration);
+
+// Auto Mapper Configurations
+// var mapperConfig = new MapperConfiguration(mc =>
+// {
+//     mc.AddProfile(new AutoMapperProfile());
+// });
+// IMapper mapper = mapperConfig.CreateMapper();
+// builder.Services.AddSingleton(mapper);
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 //Seed data
 var unitOfWork = builder.Services.BuildServiceProvider().GetRequiredService<IUnitOfWork>();

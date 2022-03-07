@@ -1,8 +1,8 @@
 using CA.Core.Domain.Common;
 
-namespace CA.Core.Domain.Entities
+namespace CA.Core.Application.DTOs
 {
-    public class User : AuditableEntity<Guid>
+    public class UserDTO : AuditableEntity<Guid>
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
