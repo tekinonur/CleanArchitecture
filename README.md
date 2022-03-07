@@ -1,3 +1,0 @@
-# CleanArchitecture
-
-NetCore Clean Architecture

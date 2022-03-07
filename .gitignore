@@ -1,8 +1,0 @@
-/.DS_Store
-/.vscode
-.history/
-bin
-obj
-packages
-
-*.vsix
