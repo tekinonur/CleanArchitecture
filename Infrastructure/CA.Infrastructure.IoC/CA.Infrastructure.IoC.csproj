@@ -17,12 +17,14 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="6.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\Core\CA.Core.Application\CA.Core.Application.csproj" />
     <ProjectReference Include="..\CA.Infrastructure.Persistence\CA.Infrastructure.Persistence.csproj" />
     <ProjectReference Include="..\..\Core\CA.Core.Domain\CA.Core.Domain.csproj" />
+    <ProjectReference Include="..\CA.Infrastructure.Identity\CA.Infrastructure.Identity.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,9 +1,11 @@
 using Microsoft.AspNetCore.Mvc;
 using CA.Core.Application.Services.IServices;
 using CA.Core.Application.DTOs;
+using CA.Infrastructure.Identity;
 
 namespace CA.Presentation.WebAPI.Controllers
 {
+    [Authorize] 
     [ApiController]
     [Route("api/[controller]")]
     public class UserController : ControllerBase

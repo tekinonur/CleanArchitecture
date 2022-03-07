@@ -10,7 +10,8 @@ namespace CA.Core.Application.Mappings
         {
             CreateMap<Item, ItemDTO>();
             CreateMap<ItemDTO, Item>();
-            CreateMap<User, UserDTO>().ReverseMap();
+            CreateMap<User, UserDTO>();
+            CreateMap<UserDTO, User>();
         }
     }
 }

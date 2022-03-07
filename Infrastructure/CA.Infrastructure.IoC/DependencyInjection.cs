@@ -1,6 +1,7 @@
 using CA.Core.Application.Services;
 using CA.Core.Application.Services.IServices;
 using CA.Core.Domain.IRepositories.Base;
+using CA.Infrastructure.Identity;
 using CA.Infrastructure.Persistence;
 using CA.Infrastructure.Persistence.Repositories.Base;
 using Microsoft.EntityFrameworkCore;
@@ -32,6 +33,11 @@ namespace CA.Infrastructure.IoC
 
             #region UnitOfWork IoC
             services.AddScoped<IUnitOfWork, UnitOfWork>();
+            #endregion
+
+            #region Identity IoC
+            services.Configure<AuthenticationSettings>(configuration.GetSection(nameof(AuthenticationSettings)));
+            services.AddScoped<ITokenService, TokenService>();
             #endregion
 
             return services;

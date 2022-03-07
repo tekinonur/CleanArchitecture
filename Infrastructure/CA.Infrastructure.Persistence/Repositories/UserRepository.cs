@@ -4,7 +4,7 @@ using CA.Infrastructure.Persistence.Repositories.Base;
 
 namespace CA.Infrastructure.Persistence.Repositories
 {
-    public class UserRepository  : Repository<User>, IUserRepository
+    public class UserRepository : Repository<User>, IUserRepository
     {
         public UserRepository(
             ApplicationDbContext context
@@ -18,7 +18,8 @@ namespace CA.Infrastructure.Persistence.Repositories
             try
             {
                 var user = await dbSet.FindAsync(ID);
-                if(user == null){
+                if (user == null)
+                {
                     throw new ArgumentNullException(nameof(user));
                 }
 
@@ -28,6 +29,11 @@ namespace CA.Infrastructure.Persistence.Repositories
             {
                 throw;
             }
+        }
+
+        public async Task<User> GetUserByEmailAndPassword(string email, string password)
+        {
+            return dbSet.SingleOrDefault(x => x.Email == email && x.Password == password);
         }
     }
 }
