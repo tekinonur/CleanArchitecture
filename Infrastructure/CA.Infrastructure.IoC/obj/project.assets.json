@@ -1216,6 +1216,7 @@
       "CA.Core.Application >= 1.0.0",
       "CA.Core.Domain >= 1.0.0",
       "CA.Infrastructure.Persistence >= 1.0.0",
+      "Microsoft.EntityFrameworkCore.Design >= 6.0.2",
       "Microsoft.EntityFrameworkCore.Sqlite >= 6.0.2",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.2",
       "Microsoft.Extensions.DependencyInjection >= 6.0.0"
@@ -1268,6 +1269,12 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[6.0.2, )"
+          },
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
             "version": "[6.0.2, )"
