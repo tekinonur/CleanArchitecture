@@ -8,7 +8,8 @@ namespace CA.Core.Domain.IRepositories.Base
     public interface IUnitOfWork
     {
         IUserRepository Users { get; }
+        IItemRepository Items { get; }
 
-        Task CompleteAsync();
+        Task<int> CompleteAsync();
     }
 }

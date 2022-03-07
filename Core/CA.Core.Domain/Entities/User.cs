@@ -11,7 +11,5 @@ namespace CA.Core.Domain.Entities
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Email { get; set; }
-
-        public virtual List<Item> Items { get; set; }
     }
 }

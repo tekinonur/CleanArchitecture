@@ -14,5 +14,6 @@ namespace CA.Core.Application.Services.IServices.Base
         Task<IEnumerable<T>> GetMany(Expression<Func<T, bool>> where);
         Task<int> Count();
         Task<int> Count(Expression<Func<T, bool>> where);
+        Task<bool> Any();
     }
 }

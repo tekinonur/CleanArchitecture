@@ -134,5 +134,10 @@ namespace CA.Infrastructure.Persistence.Repositories.Base
         {
             return await dbSet.CountAsync(where);
         }
+
+        public virtual async Task<bool> Any()
+        {
+            return await dbSet.AnyAsync();
+        }
     }
 }

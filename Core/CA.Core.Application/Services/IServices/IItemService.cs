@@ -3,8 +3,8 @@ using CA.Core.Domain.Entities;
 
 namespace CA.Core.Application.Services.IServices
 {
-    public interface IUserService : IService<User>
+    public interface IItemService : IService<Item>
     {
-        Task<string> GetFirstNameAndLastName(Guid ID);
+        
     }
 }

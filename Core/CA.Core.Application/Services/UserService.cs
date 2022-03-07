@@ -75,5 +75,10 @@ namespace CA.Core.Application.Services
             await _unitOfWork.Users.Update(entity);
             return true;
         }
+
+        public async Task<bool> Any()
+        {
+            return await _unitOfWork.Users.Any();
+        }
     }
 }

@@ -6,7 +6,7 @@ using CA.Core.Domain.Common;
 
 namespace CA.Core.Domain.Entities
 {
-    public class Item : BaseEntity<int>
+    public class Item : BaseEntity<Guid>
     {
         public string Name { get; set; }
     }

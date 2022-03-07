@@ -1,6 +1,8 @@
+using CA.Core.Domain.IRepositories.Base;
 using CA.Infrastructure.IoC;
 using CA.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +15,10 @@ builder.Services.AddSwaggerGen();
 
 //Infrastructure.IoC.DependencyInjection
 builder.Services.RegisterServices(builder.Configuration);
+
+//Seed data
+var unitOfWork = builder.Services.BuildServiceProvider().GetRequiredService<IUnitOfWork>();
+await Seed.SeedData(unitOfWork);
 
 var app = builder.Build();
 

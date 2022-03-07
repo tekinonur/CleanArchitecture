@@ -12,6 +12,7 @@ namespace CA.Infrastructure.Persistence.Repositories.Base
         private readonly ApplicationDbContext _context;
 
         public IUserRepository Users { get; private set; }
+        public IItemRepository Items { get; private set; }
 
         public UnitOfWork(
             ApplicationDbContext context
@@ -20,11 +21,12 @@ namespace CA.Infrastructure.Persistence.Repositories.Base
             _context = context;
 
             Users = new UserRepository(_context);
+            Items = new ItemRepository(_context);
         }
 
-        public Task CompleteAsync()
+        public async Task<int> CompleteAsync()
         {
-            throw new NotImplementedException();
+            return  await _context.SaveChangesAsync();
         }
     }
 }
