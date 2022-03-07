@@ -1440,11 +1440,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Presentation/CA.Presentation.WebAPI/CA.Presentation.WebAPI.csproj",
+      "projectUniqueName": "/Users/onurtekin/Repos/CleanArchitecture/Presentation/CA.Presentation.WebAPI/CA.Presentation.WebAPI.csproj",
       "projectName": "CA.Presentation.WebAPI",
-      "projectPath": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Presentation/CA.Presentation.WebAPI/CA.Presentation.WebAPI.csproj",
+      "projectPath": "/Users/onurtekin/Repos/CleanArchitecture/Presentation/CA.Presentation.WebAPI/CA.Presentation.WebAPI.csproj",
       "packagesPath": "/Users/onurtekin/.nuget/packages/",
-      "outputPath": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Presentation/CA.Presentation.WebAPI/obj/",
+      "outputPath": "/Users/onurtekin/Repos/CleanArchitecture/Presentation/CA.Presentation.WebAPI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/onurtekin/.nuget/NuGet/NuGet.Config"
@@ -1459,20 +1459,20 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Core/CA.Core.Application/CA.Core.Application.csproj": {
-              "projectPath": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Core/CA.Core.Application/CA.Core.Application.csproj"
+            "/Users/onurtekin/Repos/CleanArchitecture/Core/CA.Core.Application/CA.Core.Application.csproj": {
+              "projectPath": "/Users/onurtekin/Repos/CleanArchitecture/Core/CA.Core.Application/CA.Core.Application.csproj"
             },
-            "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Identity/CA.Infrastructure.Identity.csproj": {
-              "projectPath": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Identity/CA.Infrastructure.Identity.csproj"
+            "/Users/onurtekin/Repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Identity/CA.Infrastructure.Identity.csproj": {
+              "projectPath": "/Users/onurtekin/Repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Identity/CA.Infrastructure.Identity.csproj"
             },
-            "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Infrastructure/CA.Infrastructure.IoC/CA.Infrastructure.IoC.csproj": {
-              "projectPath": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Infrastructure/CA.Infrastructure.IoC/CA.Infrastructure.IoC.csproj"
+            "/Users/onurtekin/Repos/CleanArchitecture/Infrastructure/CA.Infrastructure.IoC/CA.Infrastructure.IoC.csproj": {
+              "projectPath": "/Users/onurtekin/Repos/CleanArchitecture/Infrastructure/CA.Infrastructure.IoC/CA.Infrastructure.IoC.csproj"
             },
-            "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Persistence/CA.Infrastructure.Persistence.csproj": {
-              "projectPath": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Persistence/CA.Infrastructure.Persistence.csproj"
+            "/Users/onurtekin/Repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Persistence/CA.Infrastructure.Persistence.csproj": {
+              "projectPath": "/Users/onurtekin/Repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Persistence/CA.Infrastructure.Persistence.csproj"
             },
-            "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Shared/CA.Infrastructure.Shared.csproj": {
-              "projectPath": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Shared/CA.Infrastructure.Shared.csproj"
+            "/Users/onurtekin/Repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Shared/CA.Infrastructure.Shared.csproj": {
+              "projectPath": "/Users/onurtekin/Repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Shared/CA.Infrastructure.Shared.csproj"
             }
           }
         }

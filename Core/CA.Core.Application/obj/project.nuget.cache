@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sgBKW8sGbPhvi8o629r1ey50KmLvLiGw5+36vq3RDJ8V1TUW/hskTQ5dumFajN+wvutfV1AYzOu/oZS8ETEX9g==",
+  "dgSpecHash": "+wUU3DDCf2p+Z0962H2TT1hexfO5XBVCLFYflnXWsB/zU+YytkyXgqwKOan5RLUjMShZnmPrgoxLRqrpmUsShQ==",
   "success": true,
-  "projectFilePath": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Core/CA.Core.Application/CA.Core.Application.csproj",
+  "projectFilePath": "/Users/onurtekin/Repos/CleanArchitecture/Core/CA.Core.Application/CA.Core.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

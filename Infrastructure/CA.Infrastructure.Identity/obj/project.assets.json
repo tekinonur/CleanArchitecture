@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Identity/CA.Infrastructure.Identity.csproj",
+      "projectUniqueName": "/Users/onurtekin/Repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Identity/CA.Infrastructure.Identity.csproj",
       "projectName": "CA.Infrastructure.Identity",
-      "projectPath": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Identity/CA.Infrastructure.Identity.csproj",
+      "projectPath": "/Users/onurtekin/Repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Identity/CA.Infrastructure.Identity.csproj",
       "packagesPath": "/Users/onurtekin/.nuget/packages/",
-      "outputPath": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Identity/obj/",
+      "outputPath": "/Users/onurtekin/Repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Identity/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/onurtekin/.nuget/NuGet/NuGet.Config"

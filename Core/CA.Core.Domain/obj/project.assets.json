@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Core/CA.Core.Domain/CA.Core.Domain.csproj",
+      "projectUniqueName": "/Users/onurtekin/Repos/CleanArchitecture/Core/CA.Core.Domain/CA.Core.Domain.csproj",
       "projectName": "CA.Core.Domain",
-      "projectPath": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Core/CA.Core.Domain/CA.Core.Domain.csproj",
+      "projectPath": "/Users/onurtekin/Repos/CleanArchitecture/Core/CA.Core.Domain/CA.Core.Domain.csproj",
       "packagesPath": "/Users/onurtekin/.nuget/packages/",
-      "outputPath": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Core/CA.Core.Domain/obj/",
+      "outputPath": "/Users/onurtekin/Repos/CleanArchitecture/Core/CA.Core.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/onurtekin/.nuget/NuGet/NuGet.Config"

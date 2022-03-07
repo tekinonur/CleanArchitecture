@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zqIYeBK46jBP1S6dfPFfksmre8hWW9wfW2wPeQvyPIePrgjlVW4T2UypJ8Kq+9MZIHeyz7OAuwY7xtQ/0l383g==",
+  "dgSpecHash": "PtWD4+XE70cs8uw2iqzP31NOenPXv9Pso7xjxuDwpW5bpMBA0QFGj3B8QpjFh83k0uPcJlP09nWPNJT/HPbOxg==",
   "success": true,
-  "projectFilePath": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Presentation/CA.Presentation.WebAPI/CA.Presentation.WebAPI.csproj",
+  "projectFilePath": "/Users/onurtekin/Repos/CleanArchitecture/Presentation/CA.Presentation.WebAPI/CA.Presentation.WebAPI.csproj",
   "expectedPackageFiles": [
     "/Users/onurtekin/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/onurtekin/.nuget/packages/microsoft.data.sqlite.core/6.0.2/microsoft.data.sqlite.core.6.0.2.nupkg.sha512",

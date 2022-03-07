@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3qhhxirsR1LwDVvDCqJD+x6KEzP0CQ+Has2Q6P4uXfSMVycQf+Ttx3xyIpQmwQFsao2pbn2VY6AhALdaV/4/xQ==",
+  "dgSpecHash": "v/8VQKQQ78RJ4LdXRcyzTy/dIqstxUzSOZmoJvTY5NU+MweiB2eRG+FXtfDbNNCiQqmh2aNf4oVHT79uSm2M1Q==",
   "success": true,
-  "projectFilePath": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Shared/CA.Infrastructure.Shared.csproj",
+  "projectFilePath": "/Users/onurtekin/Repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Shared/CA.Infrastructure.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

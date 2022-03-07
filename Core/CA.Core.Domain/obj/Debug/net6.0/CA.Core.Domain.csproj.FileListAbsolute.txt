@@ -10,3 +10,15 @@
 /Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Core/CA.Core.Domain/obj/Debug/net6.0/CA.Core.Domain.dll
 /Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Core/CA.Core.Domain/obj/Debug/net6.0/ref/CA.Core.Domain.dll
 /Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Core/CA.Core.Domain/obj/Debug/net6.0/CA.Core.Domain.pdb
+/Users/onurtekin/Repos/CleanArchitecture/Core/CA.Core.Domain/bin/Debug/net6.0/CA.Core.Domain.deps.json
+/Users/onurtekin/Repos/CleanArchitecture/Core/CA.Core.Domain/bin/Debug/net6.0/CA.Core.Domain.dll
+/Users/onurtekin/Repos/CleanArchitecture/Core/CA.Core.Domain/bin/Debug/net6.0/ref/CA.Core.Domain.dll
+/Users/onurtekin/Repos/CleanArchitecture/Core/CA.Core.Domain/bin/Debug/net6.0/CA.Core.Domain.pdb
+/Users/onurtekin/Repos/CleanArchitecture/Core/CA.Core.Domain/obj/Debug/net6.0/CA.Core.Domain.csproj.AssemblyReference.cache
+/Users/onurtekin/Repos/CleanArchitecture/Core/CA.Core.Domain/obj/Debug/net6.0/CA.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/onurtekin/Repos/CleanArchitecture/Core/CA.Core.Domain/obj/Debug/net6.0/CA.Core.Domain.AssemblyInfoInputs.cache
+/Users/onurtekin/Repos/CleanArchitecture/Core/CA.Core.Domain/obj/Debug/net6.0/CA.Core.Domain.AssemblyInfo.cs
+/Users/onurtekin/Repos/CleanArchitecture/Core/CA.Core.Domain/obj/Debug/net6.0/CA.Core.Domain.csproj.CoreCompileInputs.cache
+/Users/onurtekin/Repos/CleanArchitecture/Core/CA.Core.Domain/obj/Debug/net6.0/CA.Core.Domain.dll
+/Users/onurtekin/Repos/CleanArchitecture/Core/CA.Core.Domain/obj/Debug/net6.0/ref/CA.Core.Domain.dll
+/Users/onurtekin/Repos/CleanArchitecture/Core/CA.Core.Domain/obj/Debug/net6.0/CA.Core.Domain.pdb

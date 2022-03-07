@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Persistence/CA.Infrastructure.Persistence.csproj": {}
+    "/Users/onurtekin/Repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Persistence/CA.Infrastructure.Persistence.csproj": {}
   },
   "projects": {
-    "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Core/CA.Core.Application/CA.Core.Application.csproj": {
+    "/Users/onurtekin/Repos/CleanArchitecture/Core/CA.Core.Application/CA.Core.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Core/CA.Core.Application/CA.Core.Application.csproj",
+        "projectUniqueName": "/Users/onurtekin/Repos/CleanArchitecture/Core/CA.Core.Application/CA.Core.Application.csproj",
         "projectName": "CA.Core.Application",
-        "projectPath": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Core/CA.Core.Application/CA.Core.Application.csproj",
+        "projectPath": "/Users/onurtekin/Repos/CleanArchitecture/Core/CA.Core.Application/CA.Core.Application.csproj",
         "packagesPath": "/Users/onurtekin/.nuget/packages/",
-        "outputPath": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Core/CA.Core.Application/obj/",
+        "outputPath": "/Users/onurtekin/Repos/CleanArchitecture/Core/CA.Core.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/onurtekin/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Core/CA.Core.Domain/CA.Core.Domain.csproj": {
-                "projectPath": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Core/CA.Core.Domain/CA.Core.Domain.csproj"
+              "/Users/onurtekin/Repos/CleanArchitecture/Core/CA.Core.Domain/CA.Core.Domain.csproj": {
+                "projectPath": "/Users/onurtekin/Repos/CleanArchitecture/Core/CA.Core.Domain/CA.Core.Domain.csproj"
               }
             }
           }
@@ -60,14 +60,14 @@
         }
       }
     },
-    "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Core/CA.Core.Domain/CA.Core.Domain.csproj": {
+    "/Users/onurtekin/Repos/CleanArchitecture/Core/CA.Core.Domain/CA.Core.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Core/CA.Core.Domain/CA.Core.Domain.csproj",
+        "projectUniqueName": "/Users/onurtekin/Repos/CleanArchitecture/Core/CA.Core.Domain/CA.Core.Domain.csproj",
         "projectName": "CA.Core.Domain",
-        "projectPath": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Core/CA.Core.Domain/CA.Core.Domain.csproj",
+        "projectPath": "/Users/onurtekin/Repos/CleanArchitecture/Core/CA.Core.Domain/CA.Core.Domain.csproj",
         "packagesPath": "/Users/onurtekin/.nuget/packages/",
-        "outputPath": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Core/CA.Core.Domain/obj/",
+        "outputPath": "/Users/onurtekin/Repos/CleanArchitecture/Core/CA.Core.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/onurtekin/.nuget/NuGet/NuGet.Config"
@@ -112,14 +112,14 @@
         }
       }
     },
-    "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Persistence/CA.Infrastructure.Persistence.csproj": {
+    "/Users/onurtekin/Repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Persistence/CA.Infrastructure.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Persistence/CA.Infrastructure.Persistence.csproj",
+        "projectUniqueName": "/Users/onurtekin/Repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Persistence/CA.Infrastructure.Persistence.csproj",
         "projectName": "CA.Infrastructure.Persistence",
-        "projectPath": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Persistence/CA.Infrastructure.Persistence.csproj",
+        "projectPath": "/Users/onurtekin/Repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Persistence/CA.Infrastructure.Persistence.csproj",
         "packagesPath": "/Users/onurtekin/.nuget/packages/",
-        "outputPath": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Persistence/obj/",
+        "outputPath": "/Users/onurtekin/Repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Persistence/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/onurtekin/.nuget/NuGet/NuGet.Config"
@@ -134,11 +134,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Core/CA.Core.Application/CA.Core.Application.csproj": {
-                "projectPath": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Core/CA.Core.Application/CA.Core.Application.csproj"
+              "/Users/onurtekin/Repos/CleanArchitecture/Core/CA.Core.Application/CA.Core.Application.csproj": {
+                "projectPath": "/Users/onurtekin/Repos/CleanArchitecture/Core/CA.Core.Application/CA.Core.Application.csproj"
               },
-              "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Core/CA.Core.Domain/CA.Core.Domain.csproj": {
-                "projectPath": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Core/CA.Core.Domain/CA.Core.Domain.csproj"
+              "/Users/onurtekin/Repos/CleanArchitecture/Core/CA.Core.Domain/CA.Core.Domain.csproj": {
+                "projectPath": "/Users/onurtekin/Repos/CleanArchitecture/Core/CA.Core.Domain/CA.Core.Domain.csproj"
               }
             }
           }

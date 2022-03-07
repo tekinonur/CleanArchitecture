@@ -1206,11 +1206,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Persistence/CA.Infrastructure.Persistence.csproj",
+      "projectUniqueName": "/Users/onurtekin/Repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Persistence/CA.Infrastructure.Persistence.csproj",
       "projectName": "CA.Infrastructure.Persistence",
-      "projectPath": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Persistence/CA.Infrastructure.Persistence.csproj",
+      "projectPath": "/Users/onurtekin/Repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Persistence/CA.Infrastructure.Persistence.csproj",
       "packagesPath": "/Users/onurtekin/.nuget/packages/",
-      "outputPath": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Persistence/obj/",
+      "outputPath": "/Users/onurtekin/Repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Persistence/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/onurtekin/.nuget/NuGet/NuGet.Config"
@@ -1225,11 +1225,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Core/CA.Core.Application/CA.Core.Application.csproj": {
-              "projectPath": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Core/CA.Core.Application/CA.Core.Application.csproj"
+            "/Users/onurtekin/Repos/CleanArchitecture/Core/CA.Core.Application/CA.Core.Application.csproj": {
+              "projectPath": "/Users/onurtekin/Repos/CleanArchitecture/Core/CA.Core.Application/CA.Core.Application.csproj"
             },
-            "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Core/CA.Core.Domain/CA.Core.Domain.csproj": {
-              "projectPath": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Core/CA.Core.Domain/CA.Core.Domain.csproj"
+            "/Users/onurtekin/Repos/CleanArchitecture/Core/CA.Core.Domain/CA.Core.Domain.csproj": {
+              "projectPath": "/Users/onurtekin/Repos/CleanArchitecture/Core/CA.Core.Domain/CA.Core.Domain.csproj"
             }
           }
         }

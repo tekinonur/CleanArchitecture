@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Shared/CA.Infrastructure.Shared.csproj",
+      "projectUniqueName": "/Users/onurtekin/Repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Shared/CA.Infrastructure.Shared.csproj",
       "projectName": "CA.Infrastructure.Shared",
-      "projectPath": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Shared/CA.Infrastructure.Shared.csproj",
+      "projectPath": "/Users/onurtekin/Repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Shared/CA.Infrastructure.Shared.csproj",
       "packagesPath": "/Users/onurtekin/.nuget/packages/",
-      "outputPath": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Shared/obj/",
+      "outputPath": "/Users/onurtekin/Repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Shared/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/onurtekin/.nuget/NuGet/NuGet.Config"

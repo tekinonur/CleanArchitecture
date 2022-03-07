@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wf+YdS1GbZTESRFtn6ozlHvhal01d9pLmZXaU9rvVA2wpZ9lcwtK3BzFVuGJqdESQWco0gTasVFCpNiR3oKYeA==",
+  "dgSpecHash": "k0d72B7ffGoAbvBe/zf7bNA3cTfx1WxItOflIJrqNBKpuR/lWFYna5mTLyob5ty0ZIzUKLn+2lxCc5WbcHcW6A==",
   "success": true,
-  "projectFilePath": "/Users/onurtekin/Documents/Sources/git repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Identity/CA.Infrastructure.Identity.csproj",
+  "projectFilePath": "/Users/onurtekin/Repos/CleanArchitecture/Infrastructure/CA.Infrastructure.Identity/CA.Infrastructure.Identity.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
